@@ -1,17 +1,16 @@
-
 import { bg, icons } from "../../../utils/image-exporter";
 import { BsPlayCircle } from "react-icons/bs";
 
 export function AboutUs() {
   return (
     <>
-      <section className="text-center mt-[5rem] container">
+      <section className="text-center mt-[5rem] 2xl:mt-[12rem] container">
         <h1 className="text-white text-5xl font-bold">Quem Nós Somos </h1>
         <br />
         <br />
         <br />
         <div className="flex">
-          <div className="w-7/12 text-start">
+          <div className="w-7/12 z-10 text-start">
             <h2 className="text-4xl text-white font-bold">
               A HakyOff é uma Startup dedicada à treinamentos em Segurança da
               Informação,
@@ -69,14 +68,13 @@ export function AboutUs() {
             </ul>
           </div>
           <div className="w-5/12">
-            <div className="flex gap-4">
-              <div className="w-full">
+            <div className="flex  gap-4">
+              <div className="w-full z-10">
                 <div className="border text-start p-3 rounded-md">
-                  <p className="flex w-[10rem] py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-4">
+                  <p className="flex w-[10rem] py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-2">
                     <img src={icons.pcb} className="w-[2em]" alt="" />
                     <span className="my-auto">HackyOff {"_>"}</span>
                   </p>
-                  <br />
                   <b className="text-white">Nossos Objectivos </b>
                   <ol className="text-white text-sm">
                     <li className="my-2">
@@ -89,21 +87,18 @@ export function AboutUs() {
                   </ol>
                 </div>
               </div>
-              <div className="w-full">
+              <div className="w-full z-10">
                 <div className="border text-start p-3 rounded-md">
-                  <p className="flex w-[10rem] py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-4">
+                  <p className="flex w-[10rem] py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-2">
                     <img src={icons.pcb} className="w-[2em]" alt="" />
                     <span className="my-auto">HackyOff {"_>"}</span>
                   </p>
-                  <br />
-                  <b className="text-white">Nossos Objectivos </b>
+                  <b className="text-white">Nossa Visão </b>
                   <ol className="text-white text-sm">
                     <li className="my-2">
-                      1. Capacitar profissionais e entusiastas da segurança
-                      cibernética.
-                    </li>
-                    <li className="my-2">
-                      2. Cultivar uma comunidade engajada e colaborativa.
+                      A visão da HakyOff é ser reconhecida como uma plataforma
+                      líder mundial em treinamento em cibersegurança,
+                      impulsionando a excelência e a inovaçã
                     </li>
                   </ol>
                 </div>
@@ -111,10 +106,13 @@ export function AboutUs() {
             </div>
             <br />
             <div className="video relative">
-              <img src={bg.bg_video} className="w-full " alt="" />
-              <div className="play cursor-pointer items-center hover:text-secondary place-content-center z-10 h-[5rem] bg-primary w-[5rem] absolute top-[40%] left-[40%] rounded-full grid">
+              <div className="relative">
+                <img src={bg.bg_video} className="w-full " alt="" />
+                <div className="absolute top-0 right-0 left-0 bottom-0"></div>
+              </div>
+              <div className="play cursor-pointer items-center place-content-center z-10 h-[5rem] bg-primary w-[5rem] absolute top-[40%] left-[40%] rounded-full grid">
                 {" "}
-                <BsPlayCircle className="text-3xl" />
+                <BsPlayCircle className="text-3xl hover:scale-[1.5] transition-all" />
               </div>
               <div className="play items-center place-content-center hover:animate-none animate-ping h-[4rem] bg-primary w-[4rem] absolute top-[42%] left-[41.5%] rounded-full grid"></div>
             </div>
