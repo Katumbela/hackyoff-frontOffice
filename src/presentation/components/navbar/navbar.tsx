@@ -5,14 +5,14 @@ import { HackerEffectText } from "@nekzus/react-hacker-effect";
 import { AnimatePresence, motion } from "framer-motion";
 import { NavbarDatas } from "../../../domain/config/navbar-config";
 
-export type NavBarContentProps ={
-  activeLink: string
-  onLinkClick: (link: string) => void
-}
+export type NavBarContentProps = {
+  activeLink: string;
+  onLinkClick: (link: string) => void;
+};
 
 export function NavBar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [activeLink, setActiveLink] = useState('');
+  const [activeLink, setActiveLink] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,11 +21,9 @@ export function NavBar() {
       } else {
         setIsScrolled(false);
       }
- 
     };
 
-    window.addEvent
-    Listener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -69,12 +67,14 @@ function NavBarContent({ activeLink, onLinkClick }: NavBarContentProps) {
   return (
     <div className="flex justify-between container">
       <div className="logo">
-        <img src={logos.logo} className="" alt="" />
+        <img src={logos.logo_2} className="w-[10em] my-auto" alt="" />
       </div>
       <div className="flex my-auto gap-5">
         {NavbarDatas.map((nav, index) => (
           <a
-            className={`nav-link ${activeLink === nav.link ? "active-nav" : ""}`}
+            className={`nav-link ${
+              activeLink === nav.link ? "active-nav" : ""
+            }`}
             href={nav.link}
             key={index}
             onClick={() => onLinkClick(nav.link)}
