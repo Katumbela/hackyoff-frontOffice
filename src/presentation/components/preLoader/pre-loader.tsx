@@ -15,7 +15,7 @@ export function Preloader() {
         <div className="z-10">
           <p className="text-primary hacker font-bold text-2xl">
             <Typewriter
-              words={["Carregando", "HackyOff"]}
+              words={["Carregando", "HakyOff"]}
               loop={1}
               cursor
               cursorStyle="_"
