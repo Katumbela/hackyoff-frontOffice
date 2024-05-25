@@ -1,6 +1,7 @@
 // exportar os icons
 
 import logo from "../assets/logos/logo.png";
+import logo_2 from "../assets/logos/logo-2.png";
 import taca from "../assets/icons/cup.png";
 import check_list from "../assets/icons/check-list.png";
 import pin_btn from "../assets/icons/pin-btn.png";
@@ -51,6 +52,8 @@ export const bg = {
 
 export const logos = {
   logo,
+  logo_2
+  
 };
 
 export const icons = {
