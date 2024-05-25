@@ -24,8 +24,7 @@ export function NavBar() {
  
     };
 
-    window.addEvent
-    Listener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
