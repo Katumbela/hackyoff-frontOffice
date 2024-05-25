@@ -52,10 +52,10 @@ export function AboutUs() {
             <div className="flex  gap-4">
               <div className="w-full z-10">
                 <div className="border text-start p-3 rounded-md">
-                  <p className="flex w-[10rem] relative py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-2">
+                  <p className="flex w-[7rem] relative py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-2">
                     <Overlay />
-                    <img src={icons.pcb} className="w-[2em]" alt="" />
-                    <span className="my-auto hacker font-bold">
+                    <img src={icons.pcb} className="w-[1em]" alt="" />
+                    <span className="my-auto text-xs hacker font-bold">
                       HakyOff {"_>"}
                     </span>
                   </p>
@@ -73,10 +73,10 @@ export function AboutUs() {
               </div>
               <div className="w-full z-10">
                 <div className="border text-start p-3 rounded-md">
-                  <p className="flex relative w-[10rem] py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-2">
+                  <p className="flex relative w-[7rem] py-1 px-2 bg-primary/40 rounded-md text-primary font-bold gap-2">
                     <Overlay />{" "}
-                    <img src={icons.pcb} className="w-[2em]" alt="" />
-                    <span className="my-auto hacker font-bold">
+                    <img src={icons.pcb} className="w-[1em]" alt="" />
+                    <span className="my-auto hacker text-xs font-bold">
                       HakyOff {"_>"}
                     </span>
                   </p>
