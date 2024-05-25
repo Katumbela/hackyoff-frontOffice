@@ -1,0 +1,9 @@
+{
+    "settings": {
+      "node": {
+        "force": true,
+        "legacyPeerDeps": true
+      }
+    }
+  }
+  
