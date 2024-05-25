@@ -12,11 +12,11 @@ export function AboutUs() {
         id="about"
         className="text-center mt-[5rem] 2xl:mt-[12rem] container"
       >
-        <h1 className="text-white text-5xl font-bold">
+        <h1 className="text-white text-6xl font-bold">
           <GlitchAnimation
             isActive={true}
             animationDurationMS={10000000}
-            text="Quem Nós Somos "
+            text=" Quem Nós Somos"
           />{" "}
         </h1>
         <br />
