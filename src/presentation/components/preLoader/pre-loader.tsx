@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-import { bg, logos } from "../../../utils/image-exporter";
+import { bg } from "../../../utils/image-exporter";
 
 export function Preloader() {
   return (
