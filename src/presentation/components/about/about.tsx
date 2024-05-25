@@ -17,11 +17,11 @@ export function AboutUs() {
         <br />
         <div className="flex gap-5">
           <div className="w-7/12 z-10 text-start">
-            <h2 className="text-4xl text-white font-bold">
-              A HakyOff é uma Startup dedicada à treinamentos em Segurança da
-              Informação,
+            <h2 className="2xl:text-6xl text-5xl text-white font-bold">
+              A HakyOff
             </h2>
             <p className="text-secondary mt-4">
+              é uma Startup dedicada à treinamentos em Segurança da Informação,
               com foco principal em Segurança Ofensiva. Oferecemos uma variedade
               de treinamentos especializados, laboratórios práticos envolventes
               e uma comunidade ativa de profissionais e entusiastas da segurança
