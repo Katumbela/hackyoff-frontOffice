@@ -12,7 +12,7 @@ export type IHProps = InputHTMLAttributes<HTMLInputElement> & {
   divClass?: string;
 };
 
-export function InputHackyOff({
+export function InputHakyOff({
   leftIcon: LeftIcon,
   rightIcon: RightIcon,
   divClass,

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { bg } from "../../../utils/image-exporter";
 import { Overlay } from "../overlay/overlay";
-import { InputHackyOff } from "../input/input";
+import { InputHakyOff } from "../input/input";
 import { handleSendNewsLetterEmail } from "../../../services";
 import { Button } from "../button/button";
 import { FaArrowRight } from "react-icons/fa";
@@ -43,14 +43,14 @@ export function NewsLetter() {
         </div>
         <div className=" w-full gap-4 px-2 py-2">
           <div className="flex gap-6">
-            <InputHackyOff
+            <InputHakyOff
               placeholder="Nome"
               className="w-full"
               divClass="w-full"
               value={nome}
               onChange={(e) => setNome(e.target.value)}
             />
-            <InputHackyOff
+            <InputHakyOff
               placeholder="E-mail"
               className="w-full"
               divClass="w-full"

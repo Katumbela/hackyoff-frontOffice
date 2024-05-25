@@ -56,7 +56,7 @@ export function AboutUs() {
                     <Overlay />
                     <img src={icons.pcb} className="w-[2em]" alt="" />
                     <span className="my-auto hacker font-bold">
-                      HackyOff {"_>"}
+                      HakyOff {"_>"}
                     </span>
                   </p>
                   <b className="text-white">Nossos Objectivos </b>
@@ -77,7 +77,7 @@ export function AboutUs() {
                     <Overlay />{" "}
                     <img src={icons.pcb} className="w-[2em]" alt="" />
                     <span className="my-auto hacker font-bold">
-                      HackyOff {"_>"}
+                      HakyOff {"_>"}
                     </span>
                   </p>
                   <b className="text-white">Nossa Visão </b>

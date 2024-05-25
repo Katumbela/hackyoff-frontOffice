@@ -28,7 +28,7 @@ export function Hero() {
                 className="text-8xl hacker text-white font-bold "
               >
                 <Typewriter
-                  words={["HackyOff", "HackyOff"]}
+                  words={["HakyOff", "HakyOff"]}
                   loop={1}
                   cursor
                   cursorStyle="_"

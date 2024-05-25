@@ -18,8 +18,8 @@ export const handleSendNewsLetterEmail = async ({
   const url = "https://api.reputacao360.online/api/enviar-email";
   const dadosEmail = {
     to: "ja3328173@gmail.com",
-    subject: "Novo inscrito na newsletter da HackyOff",
-    body: `Novo e-mail cadastrado na newsletter HackyOff: ${nome} - ${email}`,
+    subject: "Novo inscrito na newsletter da HakyOff",
+    body: `Novo e-mail cadastrado na newsletter HakyOff: ${nome} - ${email}`,
     email: "ja3328173@gmail.com",
     password: "pmjh fcjp wmrm fwmy",
     emailFrom: "neroo-newsletter@gokside.site",

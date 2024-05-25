@@ -64,7 +64,7 @@ export function Footer() {
 
             <li className="footer-link flex gap-3">
               {" "}
-              <FaEnvelope className="my-auto" /> hackyoff@gmail.com
+              <FaEnvelope className="my-auto" /> HakyOff@gmail.com
             </li>
           </ul>
         </div>
@@ -116,7 +116,7 @@ export function Footer() {
       )}
       <br />
 
-      <center className="text-secondary">&copy; HackyOff - 2024</center>
+      <center className="text-secondary">&copy; HakyOff - 2024</center>
     </footer>
   );
 }
