@@ -5,8 +5,11 @@ export function Preloader() {
   return (
     <div className="preloader-container relative h-screen grid items-center place-content-center">
       <div>
-        {" "}
-        <img src={logos.logo} className="mx-auto" alt="" />
+        {/*
+        
+    <img src={logos.logo} className="mx-auto" alt="" />  
+  */}
+
         <img
           src={bg.bg_hero_fundo}
           className="mx-auto z-10 animate-pulse-slow absolute top-0 right-0 -z-10 "
