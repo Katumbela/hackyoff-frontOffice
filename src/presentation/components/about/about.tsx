@@ -3,6 +3,7 @@ import { BsPlayCircle } from "react-icons/bs";
 import { Overlay } from "../overlay/overlay";
 import { BenefitsData } from "../../../domain/config/benefits-config";
 import { BenefitsListComponent } from "../benefits-list/benefits-list";
+import { GlitchAnimation } from "react-glitch-animation";
 
 export function AboutUs() {
   return (
@@ -11,7 +12,13 @@ export function AboutUs() {
         id="about"
         className="text-center mt-[5rem] 2xl:mt-[12rem] container"
       >
-        <h1 className="text-white text-5xl font-bold">Quem Nós Somos </h1>
+        <h1 className="text-white text-5xl font-bold">
+          <GlitchAnimation
+            isActive={true}
+            animationDurationMS={10000000}
+            text="Quem Nós Somos "
+          />{" "}
+        </h1>
         <br />
         <br />
         <br />

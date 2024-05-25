@@ -5,7 +5,7 @@ export type NavProps = {
 };
 
 export const NavbarDatas: NavProps[] = [
-  { id: 1, link: "home", text: "Início" },
+  { id: 1, link: "/", text: "Início" },
   { id: 2, link: "/#about", text: "Sobre" },
   { id: 3, link: "/#trainings", text: "Treinamentos" },
   { id: 4, link: "/#team", text: "Equipa" },

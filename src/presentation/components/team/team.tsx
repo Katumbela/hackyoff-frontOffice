@@ -12,7 +12,7 @@ export function TeamComponent() {
         <h1 className="text-white text-5xl font-bold ">
           <GlitchAnimation
             isActive={true}
-            animationDurationMS={100000}
+            animationDurationMS={10000000}
             text="Nossa Equipa"
           />{" "}
         </h1>
