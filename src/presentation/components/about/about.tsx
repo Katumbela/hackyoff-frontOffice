@@ -12,7 +12,7 @@ export function AboutUs() {
         id="about"
         className="text-center mt-[5rem] 2xl:mt-[12rem] container"
       >
-        <h1 className="text-white text-6xl font-bold">
+        <h1 className="text-white font-bold">
           <GlitchAnimation
             isActive={true}
             animationDurationMS={10000000}
@@ -90,9 +90,9 @@ export function AboutUs() {
                   <b className="text-white">Nossa Visão </b>
                   <ol className="text-white text-sm">
                     <li className="my-2">
-                      A visão da HakyOff é ser reconhecida como uma plataforma
-                      líder mundial em treinamento em cibersegurança,
-                      impulsionando a excelência e a inovaçã
+                      é ser reconhecida como uma plataforma líder mundial em
+                      treinamento em cibersegurança, impulsionando a excelência
+                      e a inovação...
                     </li>
                   </ol>
                 </div>
