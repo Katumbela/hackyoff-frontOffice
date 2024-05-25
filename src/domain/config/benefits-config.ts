@@ -26,4 +26,10 @@ export const BenefitsData: IBenefits[] = [
     content:
       "Acesso a atualizações regulares sobre tendências, técnicas e ferramentas em.",
   },
+  {
+    id: 4,
+    icon: icons.check_list,
+    content:
+      "Acesso a atualizações regulares sobre tendências, técnicas e ferramentas em.",
+  },
 ];
