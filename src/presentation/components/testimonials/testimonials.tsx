@@ -3,6 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { TestimonialsData } from "../../../domain/config/testimonials-config";
 import { CardTestimonialComponent } from "../card-testimonials/card-testimonial";
+import { GlitchAnimation } from "react-glitch-animation";
 
 export function TestimonialsSection() {
   const settings = {
@@ -46,7 +47,13 @@ export function TestimonialsSection() {
       className="  py-2 my-2 container slider-container"
     >
       <center>
-        <h1 className="text-secondary text-4xl 2xl:text-6xl font-bold hacker">Expectativas</h1>
+        <h1 className="text-secondary   font-bold hacker">
+          <GlitchAnimation
+            isActive={true}
+            animationDurationMS={10000000}
+            text="   Expectativas"
+          />{" "}
+        </h1>
       </center>
       <br />
       <br />
