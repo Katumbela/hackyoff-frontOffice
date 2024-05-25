@@ -1,4 +1,13 @@
-import { AboutUs, Hero, NavBar, TeamComponent, TestimonialsSection, TrainingSection } from "../../components";
+import {
+  AboutUs,
+  Footer,
+  Hero,
+  NavBar,
+  NewsLetter,
+  TeamComponent,
+  TestimonialsSection,
+  TrainingSection,
+} from "../../components";
 import { gifs } from "../../../utils/image-exporter";
 
 export function HomePage() {
@@ -10,7 +19,7 @@ export function HomePage() {
         <img
           src={gifs.scroll_bottom}
           alt="scroll bottom"
-          className="w-[3em] mx-auto -mt-[3rem] 2xl:mt-[5rem] "
+          className="w-[3em] mx-auto -mt-[3rem] mt-[2vh] "
         />
         <br />
         <AboutUs />
@@ -20,6 +29,10 @@ export function HomePage() {
         <TeamComponent />
         <br />
         <TestimonialsSection />
+        <br />
+        <NewsLetter />
+        <br />
+        <Footer />
       </div>
       <div className="lg:hidden">
         <center className="text-white ">
